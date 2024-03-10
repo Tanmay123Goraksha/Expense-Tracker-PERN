@@ -1,0 +1,112 @@
+/* Updated CSS for a Luxurious Look with Aligned and Centered Inputs */
+
+body {
+  background-color: #161616;
+  color: #e0e0e0;
+  font-family: 'Playfair Display', serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffcc00; /* Gold */
+}
+
+.addRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.addRow form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.addRow label {
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+.addRow input {
+  padding: 15px;
+  border: 3px solid #ffcc00;
+  border-radius: 8px;
+  background-color: #282828; /* Dark Gray */
+  color: #e0e0e0;
+  font-size: 1.5rem;
+  outline: none;
+}
+
+.addRow button {
+  width: 3rem;
+  height: 3rem;
+  background: #ffcc00;
+  color: #161616;
+  border: none;
+  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.tableContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 5px solid #ffcc00;
+}
+
+th {
+  border-bottom: 5px solid #ffcc00;
+  color: #ffcc00;
+  font-size: 1.5rem;
+}
+
+tr {
+  line-height: 50px;
+}
+
+tr:hover td {
+  background: #333333;
+}
+
+th,
+td {
+  text-align: center;
+  vertical-align: middle;
+  color: #e0e0e0;
+  font-size: 1.2rem;
+  border: 3px solid #282828;
+}
+
+.deleteButton {
+  width: 8rem;
+  background: #e74c3c; /* Red */
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  height: 3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.sumRow {
+  margin-top: 20px;
+  border-top: 5px solid #ffcc00;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
